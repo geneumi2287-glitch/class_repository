@@ -6,7 +6,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "geneumi2287/andromeda_docker:latest"
+        IMAGE_NAME = "geneumi2287/andromedan_docker:latest"
         CONTAINER_NAME = "ai-model-api"
     }
 
