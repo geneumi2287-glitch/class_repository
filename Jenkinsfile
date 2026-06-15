@@ -45,6 +45,23 @@ pipeline {
             }
         }
 
+        stage('Debug') {
+            steps {
+                sh '''
+                whoami
+                pwd
+        
+                which docker
+                docker --version
+        
+                docker compose version || true
+        
+                ls -la /usr/lib/docker/cli-plugins || true
+                ls -la /usr/local/lib/docker/cli-plugins || true
+                ls -la /usr/libexec/docker/cli-plugins || true
+                '''
+            }
+        }
         stage('Deploy') {
             steps {
                 sh '''
