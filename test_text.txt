@@ -1,0 +1,39 @@
+
+
+
+
+testing pasting from clipboard into vim editor 
+using +p command to copy into vim editor
+let's test it out
+
+
+
+doesn't seem to work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

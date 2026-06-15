@@ -1,0 +1,13 @@
+
+
+
+
+
+
+services:
+  ai-model-api:
+    image: geneumi2287/andromedan_docker:latest
+    container_name: ai-model-api
+    ports:
+      - "8000:8000"
+    restart: always
